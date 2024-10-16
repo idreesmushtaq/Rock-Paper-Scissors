@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Rock Paper Scissors online. A fun and interactive game for all ages.">
+    <meta name="keywords" content="Rock Paper Scissors, game, online game, fun, interactive">
+    <meta name="author" content="Idrees Mushtaq">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Rock Paper Scissors Game">
+    <meta property="og:description" content="Play Rock Paper Scissors online. A fun and interactive game for all ages.">
+    <meta property="og:image" content="thumbnail.png">
+    <meta property="og:url" content="http://yourwebsite.com">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+    <main>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="images/rock.png" alt="Rock" >
+            </div>
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt="Paper" >
+            </div>
+            <div class="choice" id="scissors">
+                <img src="images/scissors.png" alt="Scissors" >
+            </div>
+
+        </div>
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+
+            </div>
+
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play your move</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Idrees Mushtaq. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
