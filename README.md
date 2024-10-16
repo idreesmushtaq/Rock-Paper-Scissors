@@ -20,4 +20,4 @@ To run this project, you need a web browser that supports JavaScript.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   https://github.com/idreesmushtaq/Rock-Paper-Scissors.git
